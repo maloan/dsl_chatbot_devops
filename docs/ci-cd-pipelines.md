@@ -8,8 +8,8 @@ Automate the build, test, and deployment processes to ensure continuous integrat
 - **GitHub Actions**: Easier to set up, but slightly less powerful for Azure-hosted projects.
 
 ### Example Pipeline
-- [GitHub Actions Workflow](github-actions.yml)
-- [Azure Pipelines Workflow](azure-pipelines.yml)
+- [[azure-pipelines]]
+- [[github-pipelines]]
 
 ### Tradeoffs
 - **Quick & Easy:** GitHub Actions offers simpler setup, but may have fewer advanced features compared to Azure Pipelines.

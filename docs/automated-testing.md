@@ -16,7 +16,7 @@ Automate tests to validate that the chatbot functions correctly after each chang
   - **Locust**: Simulates traffic to test scalability and performance.
  
 ### Example Code
-- [Unit tests using pytest](test_chatbot.py)
+- [[test_chatbot]]
 
 ### Tradeoffs
 - **Quick & Easy:** `pytest` or `unittest`, quick to implement and ideal for unit tests, but limited to backend logic testing.

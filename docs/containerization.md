@@ -8,7 +8,7 @@ Deploy the chatbot in a containerized environment to ensure consistency across d
 - **Azure Kubernetes Service (AKS):** For managing and scaling containers in production.
 
 ### Example Dockerfile
-- [Dockerfile](chatbot-devops-guide/code-examples/containerization/Dockerfile)
+- [[Dockerfile]]
 
 ### Tradeoffs
 - **Quick & Easy:** Docker containers are easy to set up and provide consistent environments across platforms, but require tools like Kubernetes for scalability. 
