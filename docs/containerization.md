@@ -1,4 +1,3 @@
-# Containerizing Chatbot with Docker
 
 **Objective:**
 Deploy the chatbot in a containerized environment to ensure consistency across development, testing, and production environments.

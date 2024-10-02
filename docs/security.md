@@ -1,7 +1,7 @@
 # Security Best Practices
 
 **Objective:**
-Secure your chatbot by managing secrets, encrypting data, and performing security scans.
+Secure your chatbot by encrypting data and performing security scans.
 
 ### **Recommended Tools:**
 - **Azure Key Vault:** For secure secret management.

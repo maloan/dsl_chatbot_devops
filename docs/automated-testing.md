@@ -1,4 +1,3 @@
-# Automated Testing for Chatbot
 
 **Objective:**
 Automate tests to validate that the chatbot functions correctly after each change.
@@ -9,7 +8,7 @@ Automate tests to validate that the chatbot functions correctly after each chang
   - **unittest**: Built-in Python testing framework.
   
 - **End-to-End Testing:**
-  - **Botium**: Tailored for chatbot testing.
+  - ==**Botium**: Tailored for chatbot testing.==
   - **Selenium/Cypress**: For web-based chatbots, testing the user interface.
 
 - **Performance Testing:**
@@ -19,8 +18,8 @@ Automate tests to validate that the chatbot functions correctly after each chang
 - [[test_chatbot]]
 
 ### Tradeoffs
-- **Quick & Easy:** `pytest` or `unittest`, quick to implement and ideal for unit tests, but limited to backend logic testing.
-- **Important:** `Botium` enables full conversation testing, but requires more setup, especially for NLP-based bots.
+- **Quick & Easy:** `pytest` or `unittest`; quick to implement and ideal for unit tests.
+- **Important:** `Botium`; allows for full conversation testing, but requires more setup, especially for NLP-based bots.
 - **Nice-to-Have:** Implement performance tests with `Locust` to stress-test the chatbot for future scalability.
 
 ### Steps for Implementing
