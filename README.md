@@ -28,7 +28,7 @@ This folder contains practical code examples.
 
 #### Testing and Scalability
 - [**Testing**](https://github.com/maloan/dsl_chatbot_devops/blob/main/docs/Testing.md): Strategies and frameworks for testing chatbots.
-- [**Scalability**](https://github.com/maloan/dsl_chatbot_devops/blob/main/docs/Scalability.md): Insights on ensuring your chatbot can handle increased demand.
+- [**Scalability**](https://github.com/maloan/dsl_chatbot_devops/blob/main/docs/scalability.md): Insights on ensuring your chatbot can handle increased demand.
 
 #### Integration and Hybrid Approaches
 - [**Hybrid Approaches**](https://github.com/maloan/dsl_chatbot_devops/blob/main/docs/extra/Hybrid%20approachs.md): Combining managed and self-hosted solutions effectively.
