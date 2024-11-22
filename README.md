@@ -1,8 +1,16 @@
 ---
 created: 2024-11-19 08:18
+updated: 2024-11-22 16:43
+---
+<<<<<<< HEAD
+---
+created: 2024-11-19 08:18
 updated: 2024-11-22 16:38
 ---
 
+=======
+## Table of Contents
+>>>>>>> 08d563cea29d2057346f98f7c12118afc932a38f
 
 # **Table of Contents**
 
@@ -38,6 +46,7 @@ updated: 2024-11-22 16:38
 - Database Migration and Management  
     Strategies for migrating databases and managing them across environments.
 
+<<<<<<< HEAD
 ---
 
 ## **3. Databases**
@@ -135,3 +144,6 @@ updated: 2024-11-22 16:38
     A collection of useful references and resources.
 
 ---
+=======
+--
+>>>>>>> 08d563cea29d2057346f98f7c12118afc932a38f
