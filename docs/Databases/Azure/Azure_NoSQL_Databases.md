@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-=======
----
-created: 2024-11-19 08:18
-updated: 2024-11-22 15:16
----
-
->>>>>>> b5c084f6a92678cff1aff161f80df467e2fd6a9f
 # **Azure NoSQL Database Solutions**
 
 ## **1. Introduction**
