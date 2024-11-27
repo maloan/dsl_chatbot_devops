@@ -93,12 +93,12 @@
 - **Terraform**, **AWS CloudFormation**: Automate infrastructure management using code.
     - [Terraform Introduction](https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code)
 
-#### **Scalability & [Performance](Data_science_lab/dsl_chatbot_devops/docs/Databases/Performance_Optimization_and_Caching.md) Tuning**
+#### **Scalability & [Performance](docs/Databases/Performance_Optimization_and_Caching.md) Tuning**
 
 - **Horizontal Scaling**: Adding more compute resources can be done using Kubernetes autoscaling or AWS Auto Scaling.
     - [Kubernetes Horizontal Scaling](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)
 
-#### **[Caching](Data_science_lab/dsl_chatbot_devops/docs/Databases/Performance_Optimization_and_Caching.md) for Performance**
+#### **[Caching](docs/Databases/Performance_Optimization_and_Caching.md) for Performance**
 
 - Tools like **Redis** or **Memcached** help store frequently accessed data in memory to improve response times.
     - [Redis Caching Best Practices](https://redis.io/topics/introduction)

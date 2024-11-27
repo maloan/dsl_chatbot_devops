@@ -6,7 +6,7 @@
 
 ### **Introduction**
 
-Prometheus is an open-source monitoring and alerting toolkit, originally developed by SoundCloud in 2012, and widely adopted for cloud-native environments, particularly for [Kubernetes](Data_science_lab/dsl_chatbot_devops/docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) monitoring.
+Prometheus is an open-source monitoring and alerting toolkit, originally developed by SoundCloud in 2012, and widely adopted for cloud-native environments, particularly for [Kubernetes](docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) monitoring.
 
 ### **Key Features**
 
@@ -53,7 +53,7 @@ Prometheus can be installed via several methods:
 
 - **Pre-compiled Binaries**
 - **From Source** using a Makefile
-- **[Docker](Data_science_lab/dsl_chatbot_devops/docs/Containerization_and_Deployment/Docker_and_Kubernetes.md)**: Available from [Docker Hub](https://hub.docker.com/r/prom/prometheus/).
+- **[Docker](docs/Containerization_and_Deployment/Docker_and_Kubernetes.md)**: Available from [Docker Hub](https://hub.docker.com/r/prom/prometheus/).
 
 For installation details, visit the [Prometheus installation page](https://prometheus.io/download/).
 
@@ -136,6 +136,6 @@ Grafana supports a wide array of plugins for different data sources and visualiz
 
 ### **Installation and Setup**
 
-Grafana can be installed on various operating systems, or you can use [Docker](Data_science_lab/dsl_chatbot_devops/docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) for containerized environments. For installation instructions, refer to the [Grafana installation page](https://grafana.com/docs/grafana/latest/setup-grafana/installation/).
+Grafana can be installed on various operating systems, or you can use [Docker](docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) for containerized environments. For installation instructions, refer to the [Grafana installation page](https://grafana.com/docs/grafana/latest/setup-grafana/installation/).
 
 Explore all Grafana features via the [official Grafana documentation](https://grafana.com/docs/grafana/latest/).

@@ -9,7 +9,7 @@ Azure Monitor stands out due to its flexibility, robust integrations, and abilit
 - **Centralized Monitoring**: Unify metrics, logs, and telemetry data for a complete overview.
 - **Proactive Problem-Solving**: Detect anomalies and prevent issues before they impact users.
 - **Actionable Insights**: Use analytics to optimize performance and costs.
-- **Extensive Integrations**: Enhance functionality with tools like [Grafana](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Prometheus_and_Grafana.md), Power BI, and third-party solutions.
+- **Extensive Integrations**: Enhance functionality with tools like [Grafana](docs/Monitoring/Prometheus_and_Grafana.md), Power BI, and third-party solutions.
 ---
 
 ## **1.3 Key Benefits**
@@ -21,7 +21,7 @@ Azure Monitor offers a range of benefits, making it suitable for various operati
 |**Unified Monitoring**|Combines metrics, logs, and telemetry from multiple environments.|Monitor a hybrid setup of Azure VMs and on-premises servers seamlessly.|
 |**Proactive Insights**|Detects anomalies and potential issues before they escalate.|Identify a memory leak in a production environment before downtime occurs.|
 |**[Scalability](../../Containerization_and_Deployment/Scalability)**|Adapts to systems ranging from small apps to global infrastructures.|Scale resources dynamically during traffic surges in an e-commerce application.|
-|**Flexibility**|Supports Azure-native and third-party tools for enhanced customization.|Integrate [Grafana](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Prometheus_and_Grafana.md) for advanced visualization across Azure and AWS resources.|
+|**Flexibility**|Supports Azure-native and third-party tools for enhanced customization.|Integrate [Grafana](docs/Monitoring/Prometheus_and_Grafana.md) for advanced visualization across Azure and AWS resources.|
 |**Advanced Security**|Offers robust compliance and threat detection capabilities.|Protect sensitive data in financial systems using Azure Security Center.|
 
 ---

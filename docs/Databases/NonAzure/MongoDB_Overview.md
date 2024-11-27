@@ -57,6 +57,6 @@ MongoDB Enterprise Advanced is designed for enterprises that require robust feat
 
 - **Robust Security**: Includes advanced encryption and compliance features to meet strict security requirements.
 - **Ops Manager**: A management tool that simplifies monitoring, automation, and backups for MongoDB deployments.
-- **BI Connector and [Kubernetes](Data_science_lab/dsl_chatbot_devops/docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) Operator**: Helps integrate MongoDB with IT systems and orchestrates deployments in [Kubernetes](Data_science_lab/dsl_chatbot_devops/docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) environments.
+- **BI Connector and [Kubernetes](docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) Operator**: Helps integrate MongoDB with IT systems and orchestrates deployments in [Kubernetes](docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) environments.
 
 For more information, visit the [MongoDB Enterprise page](https://www.mongodb.com/try/download/enterprise).

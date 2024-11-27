@@ -227,10 +227,10 @@ Azure Monitor supports a range of visualization methods, each tailored to specif
         - Automate refresh schedules for up-to-date reporting.
 5. **Partner Solutions**:
     
-    - **[Grafana](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Prometheus_and_Grafana.md)**:
+    - **[Grafana](docs/Monitoring/Prometheus_and_Grafana.md)**:
         - **Description**: An open-source visualization tool that integrates with Azure Monitor for multi-cloud dashboards.
         - **Features**:
-            - Real-time operational dashboards for [DevOps](Data_science_lab/dsl_chatbot_devops/docs/Azure_Overview/Microsoft%20Azure%20DevOps%20Tools%20and%20Resources.md) and engineering teams.
+            - Real-time operational dashboards for [DevOps](docs/Azure_Overview/Microsoft%20Azure%20DevOps%20Tools%20and%20Resources.md) and engineering teams.
             - Native Azure Monitor plugin for seamless integration.
         - **Use Cases**:
             - Hybrid monitoring combining Azure and other cloud platforms.
@@ -251,7 +251,7 @@ Azure Monitor supports a range of visualization methods, each tailored to specif
 |**Workbooks**|Deep Analysis|Troubleshooting and operational insights|Flexible templates, advanced queries|Steeper learning curve|
 |**Metrics Explorer**|Real-Time Metrics|Quick SLA checks and anomaly detection|Near real-time data, lightweight|Limited to Azure-native metrics|
 |**Power BI**|Business Intelligence|Executive reporting and trend analysis|External data integration|No real-time updates|
-|**[Grafana](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Prometheus_and_Grafana.md)**|Multi-Cloud Dashboards|Unified view for hybrid environments|Multi-platform support|Requires additional setup|
+|**[Grafana](docs/Monitoring/Prometheus_and_Grafana.md)**|Multi-Cloud Dashboards|Unified view for hybrid environments|Multi-platform support|Requires additional setup|
 
 ---
 
@@ -264,7 +264,7 @@ Azure Monitor supports a range of visualization methods, each tailored to specif
 3. **Resource Cost Tracking**:
     - Integrate with Power BI to monitor and optimize Azure consumption costs.
 4. **DevOps Dashboards**:
-    - Deploy [Grafana](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Prometheus_and_Grafana.md) for real-time insights during CI/CD pipeline executions.
+    - Deploy [Grafana](docs/Monitoring/Prometheus_and_Grafana.md) for real-time insights during CI/CD pipeline executions.
 
 ---
 

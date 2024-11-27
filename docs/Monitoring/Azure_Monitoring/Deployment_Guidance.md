@@ -65,9 +65,9 @@ Before setting up Azure Monitor, clarify the goals of monitoring. Consider the f
     - Use Logic Apps to restart services or trigger incident workflows.
     - Execute scripts via Azure Functions for custom automation needs.
 
-### **3.4 Integrate with [DevOps](Data_science_lab/dsl_chatbot_devops/docs/Azure_Overview/Microsoft%20Azure%20DevOps%20Tools%20and%20Resources.md) Workflows**
+### **3.4 Integrate with [DevOps](docs/Azure_Overview/Microsoft%20Azure%20DevOps%20Tools%20and%20Resources.md) Workflows**
 
-- Embed monitoring steps into CI/CD pipelines using Azure DevOps or GitHub [Actions](Data_science_lab/dsl_chatbot_devops/code-examples/Example%20GitHub%20Actions%20Pipeline.md):
+- Embed monitoring steps into CI/CD pipelines using Azure DevOps or GitHub [Actions](code-examples/Example%20GitHub%20Actions%20Pipeline.md):
     - Validate build performance during deployment.
     - Monitor post-deployment application health.
 

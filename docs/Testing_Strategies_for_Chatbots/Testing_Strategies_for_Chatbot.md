@@ -6,7 +6,7 @@ Testing chatbots is crucial for ensuring their functionality, reliability, secur
 
 |**Strategy**|**Purpose**|**Tools**|**Advantages**|**Disadvantages**|
 |---|---|---|---|---|
-|**[Unit](Data_science_lab/dsl_chatbot_devops/code-examples/Example%20Pytest%20Unit%20Test.md) Testing**|Focuses on testing individual components, such as intent recognition.| Jest, Mocha, pytest, unittest|Fast feedback, early bug detection, automated execution.|Limited scope (only small, isolated components).|
+|**[Unit](code-examples/Example%20Pytest%20Unit%20Test.md) Testing**|Focuses on testing individual components, such as intent recognition.| Jest, Mocha, pytest, unittest|Fast feedback, early bug detection, automated execution.|Limited scope (only small, isolated components).|
 |**Integration Testing**|Ensures interaction between modules (APIs, databases, etc.) works well.| Postman, Supertest, pytest-django|Comprehensive testing of interactions, detects issues in interfaces.|Slower execution compared to unit tests.|
 |**E2E Testing**|Validates full workflows by simulating real user interactions.| Cypress, Selenium, Puppeteer| Tests real-world scenarios, end-to-end validation of workflows.|Time-consuming, complex setup.|
 |**Performance Testing**|Assesses the system under stress to identify scalability issues.| JMeter, Locust, k6|Provides scalability insights, detects bottlenecks early.|Resource-intensive, setup complexity.|
@@ -20,15 +20,15 @@ Testing chatbots is crucial for ensuring their functionality, reliability, secur
 
 ### **In-Depth Tool Analysis and Use Cases**
 
-#### **1. [Unit](Data_science_lab/dsl_chatbot_devops/code-examples/Example%20Pytest%20Unit%20Test.md) Testing Tools**
+#### **1. [Unit](code-examples/Example%20Pytest%20Unit%20Test.md) Testing Tools**
 
-[Unit](Data_science_lab/dsl_chatbot_devops/code-examples/Example%20Pytest%20Unit%20Test.md) testing is crucial for validating individual chatbot components such as intent recognition and dialogue management. These tools help ensure that the components are working correctly before integrating them into a larger system.
+[Unit](code-examples/Example%20Pytest%20Unit%20Test.md) testing is crucial for validating individual chatbot components such as intent recognition and dialogue management. These tools help ensure that the components are working correctly before integrating them into a larger system.
 
 |**Tool**|**Advantages**|**Disadvantages**|**Use Case**|**Cost**|
 |---|---|---|---|---|
 |**Jest**|Fast, easy setup, especially for JavaScript apps. Supports mock functions and snapshots.| Limited support outside JavaScript/TypeScript environments.|Testing JavaScript functions and components.|Free, open-source.|
 |**Mocha**|Flexible, supports asynchronous testing, and can integrate with other libraries.| Requires additional configuration for complex setups.|Unit testing with Node.js, especially for asynchronous code.|Free, open-source.|
-|**[Pytest](Data_science_lab/dsl_chatbot_devops/code-examples/Example%20Pytest%20Unit%20Test.md)**|Simple syntax, extensive support for plugins and fixtures.| May require plugins for more advanced testing use cases.|Python-based testing, especially for backend chatbot logic.|Free, open-source.|
+|**[Pytest](code-examples/Example%20Pytest%20Unit%20Test.md)**|Simple syntax, extensive support for plugins and fixtures.| May require plugins for more advanced testing use cases.|Python-based testing, especially for backend chatbot logic.|Free, open-source.|
 
 #### **2. Integration Testing Tools**
 
@@ -83,7 +83,7 @@ Usability testing helps collect real user feedback and identify user experience 
 
 ### **Summary and Recommendations**
 
-- **Unit tests**: Use **Jest** for JavaScript-based chatbots and **[Pytest](Data_science_lab/dsl_chatbot_devops/code-examples/Example%20Pytest%20Unit%20Test.md)** for Python-based ones. Both are fast and effective.
+- **Unit tests**: Use **Jest** for JavaScript-based chatbots and **[Pytest](code-examples/Example%20Pytest%20Unit%20Test.md)** for Python-based ones. Both are fast and effective.
 - **Integration tests**: Use **Postman** for ease of use and **Supertest** for more control over HTTP requests in Node.js.
 
 - **End-to-End tests**: **Cypress** is fast and reliable for frontend interactions, while **Selenium** is ideal for cross-browser testing.

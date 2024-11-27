@@ -200,7 +200,7 @@ Brings Azure SQL management features to on-premises SQL Server instances.
 
 #### **Overview**
 
-Deploy PostgreSQL servers in hybrid setups using [Kubernetes](Data_science_lab/dsl_chatbot_devops/code-examples/Example%20Deployment%20on%20Azure%20Kubernetes%20Service%20(AKS).md#Kubernetes%20deployment), enabling consistent management across environments.
+Deploy PostgreSQL servers in hybrid setups using [Kubernetes](code-examples/Example%20Deployment%20on%20Azure%20Kubernetes%20Service%20(AKS).md#Kubernetes%20deployment), enabling consistent management across environments.
 
 #### **Key Features**
 

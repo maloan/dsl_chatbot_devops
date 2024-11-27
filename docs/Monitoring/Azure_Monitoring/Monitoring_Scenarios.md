@@ -1,4 +1,4 @@
-# **3. [Monitoring](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Monitoring_and_Logging.md) Scenarios**
+# **3. [Monitoring](docs/Monitoring/Monitoring_and_Logging.md) Scenarios**
 
 ## **1. Introduction**
 
@@ -53,7 +53,7 @@ Proactive monitoring helps preemptively detect anomalies, anticipate scaling nee
     
     - Analyzes historical trends to forecast resource needs and recommends scaling actions.
     - Prevents performance bottlenecks during high-traffic events.
-    - **Example**: Scales up Azure [Kubernetes](Data_science_lab/dsl_chatbot_devops/docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) Service (AKS) nodes ahead of a holiday sales event.
+    - **Example**: Scales up Azure [Kubernetes](docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) Service (AKS) nodes ahead of a holiday sales event.
 3. **Live Metrics Streaming**
     
     - Provides real-time telemetry for immediate debugging during incidents.
@@ -702,7 +702,7 @@ A manufacturing company detects unauthorized access attempts to critical IoT dev
 
 ### **Overview**
 
-Database monitoring is vital for maintaining the performance, reliability, and scalability of modern applications. Azure offers a range of tools, such as **SQL Insights**, **Cosmos DB Metrics**, and **Azure Monitor Workbooks**, to help organizations monitor query performance, manage resources, and optimize costs across relational and [NoSQL](Data_science_lab/dsl_chatbot_devops/docs/Databases/Azure/Azure_NoSQL_Databases.md) databases. These capabilities ensure compliance with SLAs, reduce downtime, and provide actionable insights.
+Database monitoring is vital for maintaining the performance, reliability, and scalability of modern applications. Azure offers a range of tools, such as **SQL Insights**, **Cosmos DB Metrics**, and **Azure Monitor Workbooks**, to help organizations monitor query performance, manage resources, and optimize costs across relational and [NoSQL](docs/Databases/Azure/Azure_NoSQL_Databases.md) databases. These capabilities ensure compliance with SLAs, reduce downtime, and provide actionable insights.
 
 ---
 
@@ -793,7 +793,7 @@ Database monitoring is vital for maintaining the performance, reliability, and s
 
 ### **Best Practices**
 
-1. **Enable Comprehensive [Diagnostics](Data_science_lab/dsl_chatbot_devops/docs/Azure_Overview/Azure_Monitoring_and_Diagnostics_Overview.md)**:
+1. **Enable Comprehensive [Diagnostics](docs/Azure_Overview/Azure_Monitoring_and_Diagnostics_Overview.md)**:
     - Forward database telemetry to **Log Analytics Workspace** for centralized analysis.
     - Ensure query performance, RU usage, and storage consumption are logged.
 2. **Set Proactive Alerts**:

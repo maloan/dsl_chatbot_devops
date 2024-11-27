@@ -8,7 +8,7 @@ This document outlines the various data storage solutions available for chatbots
 
 #### **Overview**
 
-Azure Cosmos DB is a globally distributed [NoSQL](Data_science_lab/dsl_chatbot_devops/docs/Databases/Azure/Azure_NoSQL_Databases.md) database designed for high [scalability](../Containerization_and_Deployment/Scalability) and performance. It supports multiple data models, making it ideal for applications that need low-latency access across regions.
+Azure Cosmos DB is a globally distributed [NoSQL](docs/Databases/Azure/Azure_NoSQL_Databases.md) database designed for high [scalability](../Containerization_and_Deployment/Scalability) and performance. It supports multiple data models, making it ideal for applications that need low-latency access across regions.
 
 #### **Use Cases**
 
@@ -58,7 +58,7 @@ Azure SQL Database is a fully managed relational database service, ideal for app
 
 #### **Disadvantages**
 
-- **Relational Models Only**: Not suited for unstructured data; [NoSQL](Data_science_lab/dsl_chatbot_devops/docs/Databases/Azure/Azure_NoSQL_Databases.md) may be a better choice.
+- **Relational Models Only**: Not suited for unstructured data; [NoSQL](docs/Databases/Azure/Azure_NoSQL_Databases.md) may be a better choice.
 - **Cost for High Availability**: Advanced configurations and high availability features can be costly.
 
 #### **Cost**
@@ -78,11 +78,11 @@ Pricing depends on the service tier and provisioned resources. Higher tiers offe
 
 |**Criteria**|**Azure Cosmos DB**|**Azure SQL Database**|
 |---|---|---|
-|**Data Model**|[NoSQL](Data_science_lab/dsl_chatbot_devops/docs/Databases/Azure/Azure_NoSQL_Databases.md) (document, key-value, graph, column-family)|Relational (SQL)|
+|**Data Model**|[NoSQL](docs/Databases/Azure/Azure_NoSQL_Databases.md) (document, key-value, graph, column-family)|Relational (SQL)|
 |**[Scalability](../Containerization_and_Deployment/Scalability)**|High [scalability](../Containerization_and_Deployment/Scalability) with automatic throughput scaling|Vertical scaling with elastic pools or partitioning|
 |**Global Distribution**|Multi-region replication|Available with Active Geo-Replication|
 |**Consistency Models**|Multiple consistency levels|Strict ACID compliance|
-|**[Performance](Data_science_lab/dsl_chatbot_devops/docs/Databases/Performance_Optimization_and_Caching.md)**|Low-latency reads and writes globally|High-performance transactional queries|
+|**[Performance](docs/Databases/Performance_Optimization_and_Caching.md)**|Low-latency reads and writes globally|High-performance transactional queries|
 |**Cost**|Higher, based on throughput and storage|Moderate, based on provisioned vCores and storage|
 |**Ideal Use Cases**|Unstructured data, globally distributed apps|Structured data, complex queries, transactional apps|
 
@@ -95,7 +95,7 @@ Pricing depends on the service tier and provisioned resources. Higher tiers offe
 
 ### **4. Supporting Technologies for Chatbot Data Storage**
 
-#### **[Caching](Data_science_lab/dsl_chatbot_devops/docs/Databases/Performance_Optimization_and_Caching.md) Mechanisms**
+#### **[Caching](docs/Databases/Performance_Optimization_and_Caching.md) Mechanisms**
 
 ##### **Overview**
 
@@ -104,7 +104,7 @@ Caching is a technique that stores frequently accessed data in memory, reducing 
 ##### **Use Cases**
 
 - **Reduce Latency**: Cache frequently accessed data like user sessions and chatbot responses.
-- **Improve [Performance](Data_science_lab/dsl_chatbot_devops/docs/Databases/Performance_Optimization_and_Caching.md)**: Relieve backend databases from high read/write demands.
+- **Improve [Performance](docs/Databases/Performance_Optimization_and_Caching.md)**: Relieve backend databases from high read/write demands.
 
 ##### **Examples**
 
@@ -142,7 +142,7 @@ Data pruning helps optimize database performance by removing outdated chat data.
 
 ### **5. Other Database Options**
 
-#### **[MongoDB](Data_science_lab/dsl_chatbot_devops/docs/Databases/NonAzure/MongoDB_Overview.md)**
+#### **[MongoDB](docs/Databases/NonAzure/MongoDB_Overview.md)**
 
 - **Type**: NoSQL Document Database
 - **Use Cases**: Ideal for flexible schemas, such as chat logs and user data.

@@ -27,7 +27,7 @@ Azure Key Vault is a Microsoft service for managing secrets (API keys, certifica
 #### Use Cases
 
 - **Secrets Management**: Store sensitive data like passwords and API keys securely.
-- **[Integration](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Azure_Monitoring/Integration_Possibilities.md) with Azure Services**: Supports encryption, secure storage, and compliance with Azure applications.
+- **[Integration](docs/Monitoring/Azure_Monitoring/Integration_Possibilities.md) with Azure Services**: Supports encryption, secure storage, and compliance with Azure applications.
 - **Encryption and Compliance**: Helps with regulatory compliance by enabling data encryption at rest and controlling access to cryptographic keys.
 
 #### Advantages
@@ -61,7 +61,7 @@ OWASP ZAP is a popular open-source security tool for finding vulnerabilities in 
 #### Use Cases
 
 - **Vulnerability Testing**: Identifies common security flaws in web applications and APIs.
-- **CI/CD Integration**: Integrates easily into [DevOps](Data_science_lab/dsl_chatbot_devops/docs/Azure_Overview/Microsoft%20Azure%20DevOps%20Tools%20and%20Resources.md) workflows to automate security testing.
+- **CI/CD Integration**: Integrates easily into [DevOps](docs/Azure_Overview/Microsoft%20Azure%20DevOps%20Tools%20and%20Resources.md) workflows to automate security testing.
 - **API Security**: Tests RESTful APIs for potential vulnerabilities.
 
 #### Advantages

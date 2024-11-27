@@ -32,7 +32,7 @@ Azure Arc Data Controllers facilitate the extension of Azure's data capabilities
 |---|---|
 |**Unified Management**|Centralized governance for on-premises and multi-cloud environments using Azure services and tools.|
 |**Flexible Connectivity**|Supports directly connected and indirectly connected modes for hybrid scenarios.|
-|**Self-Service Provisioning**|Automated provisioning using [Kubernetes](Data_science_lab/dsl_chatbot_devops/docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) for fast deployment in hybrid setups.|
+|**Self-Service Provisioning**|Automated provisioning using [Kubernetes](docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) for fast deployment in hybrid setups.|
 |**Elastic Scaling**|Cloud-like dynamic scaling capabilities for databases.|
 |**Disconnected Scenario Support**|Enables backups, restores, and monitoring even without a continuous Azure connection.|
 
@@ -47,7 +47,7 @@ Azure Arc Data Controllers facilitate the extension of Azure's data capabilities
 |**Use Case**|Cloud-connected environments with continuous Azure access|Compliance-heavy environments with restricted Azure connectivity.|
 |**Inventory Management**|Real-time updates in the Azure portal|Periodic data export and manual upload to Azure for inventory updates|
 |**Authentication**|Supports Microsoft Entra ID and Azure RBAC|Local RBAC and username/password authentication only|
-|**Azure Monitor Integration**|Real-time monitoring and alerts|Local monitoring via [Grafana](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Prometheus_and_Grafana.md) and Kibana dashboards|
+|**Azure Monitor Integration**|Real-time monitoring and alerts|Local monitoring via [Grafana](docs/Monitoring/Prometheus_and_Grafana.md) and Kibana dashboards|
 |**Backup and Restore**|Local backups with optional Azure Blob storage|Local backups only; Azure integration unavailable|
 
 ---
@@ -113,12 +113,12 @@ Azure Arc extends Azure's data management capabilities to non-Azure environments
 
 ---
 
-## **8. [Monitoring](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Monitoring_and_Logging.md) and Security**
+## **8. [Monitoring](docs/Monitoring/Monitoring_and_Logging.md) and Security**
 
 ### **8.1 Monitoring Tools**
 
 - **Azure Monitor**: Real-time insights into hybrid environments.
-- **[Grafana](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Prometheus_and_Grafana.md) Dashboards**: Available for locally monitored Arc-enabled PostgreSQL databases.
+- **[Grafana](docs/Monitoring/Prometheus_and_Grafana.md) Dashboards**: Available for locally monitored Arc-enabled PostgreSQL databases.
 
 ### **8.2 Security Features**
 

@@ -16,7 +16,7 @@ This document offers a detailed overview of Azure’s NoSQL database solutions. 
 
 ### **1.2 The NoSQL Database Landscape**
 
-NoSQL Databases are designed to handle unstructured and semi-structured data, making them ideal for modern applications that require flexibility, [Scalability](Data_science_lab/dsl_chatbot_devops/docs/Containerization_and_Deployment/Scalability.md), and speed. Key use cases include:
+NoSQL Databases are designed to handle unstructured and semi-structured data, making them ideal for modern applications that require flexibility, [Scalability](docs/Containerization_and_Deployment/Scalability.md), and speed. Key use cases include:
 
 - **IoT**: Storing and analyzing massive streams of sensor data.
 - **Real-Time Analytics**: Processing large-scale data to provide instant insights.
@@ -35,7 +35,7 @@ Azure Cosmos DB is a fully managed, globally distributed NoSQL database service 
 
 - **Global Distribution**: Multi-region replication with <10ms read/write latencies, backed by an SLA.
 - **Elastic Scalability**: Auto-scaling of throughput and storage.
-- **Multi-Model API Support**: Includes APIs for NoSQL, [MongoDB](Data_science_lab/dsl_chatbot_devops/docs/Databases/NonAzure/MongoDB_Overview.md), Cassandra, Gremlin, and Table.
+- **Multi-Model API Support**: Includes APIs for NoSQL, [MongoDB](docs/Databases/NonAzure/MongoDB_Overview.md), Cassandra, Gremlin, and Table.
 - **Data Consistency Models**: Options range from eventual to strong consistency.
 - **Partitioning**: Automatic partitioning for high-performance data management.
 
@@ -94,7 +94,7 @@ Azure Cosmos DB for MongoDB (vCore) is a managed service offering MongoDB compat
 
 ### **3.3 Use Cases**
 
-- [Migration](Data_science_lab/dsl_chatbot_devops/docs/Databases/Database_Migration_and_Management.md) of MongoDB applications to a fully managed service.
+- [Migration](docs/Databases/Database_Migration_and_Management.md) of MongoDB applications to a fully managed service.
 - Content management systems with flexible schema needs.
 - E-commerce platforms with high write-intensive workloads.
 
@@ -110,7 +110,7 @@ Azure Managed Cassandra offers a fully managed version of Apache Cassandra, prov
 
 - Managed deployments with auto-scaling and backups.
 - Hybrid cloud support, integrating with on-premises and multi-cloud environments.
-- [Integration](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Azure_Monitoring/Integration_Possibilities.md) with monitoring tools like Azure [Monitor](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Monitoring_and_Logging.md).
+- [Integration](docs/Monitoring/Azure_Monitoring/Integration_Possibilities.md) with monitoring tools like Azure [Monitor](docs/Monitoring/Monitoring_and_Logging.md).
 
 ### **4.2 Use Cases**
 

@@ -155,7 +155,7 @@ Azure Arc Data Controllers extend Azure’s data management capabilities to hybr
 
 |**Aspect**|**Pros**|**Cons**|
 |---|---|---|
-|**Setup**|Seamless hybrid cloud integration| Requires [Kubernetes](Data_science_lab/dsl_chatbot_devops/docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) expertise|
+|**Setup**|Seamless hybrid cloud integration| Requires [Kubernetes](docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) expertise|
 |**[Scalability](../Containerization_and_Deployment/Scalability)**|Automatic scaling across environments| Limited real-time insights in indirect mode|
 |**Data Management**|Centralized management and monitoring| Additional setup required for indirect mode|
 
