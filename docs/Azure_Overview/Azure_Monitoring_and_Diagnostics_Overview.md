@@ -1,8 +1,3 @@
----
-created: 2024-11-19 08:18
-updated: 2024-11-22 14:49
----
-
 ## **1. Detection, Triage, and Diagnosis**
 
 These tools assist in identifying and analyzing issues in your Azure environment to enable quick resolution and continuous improvement.
@@ -75,7 +70,7 @@ Enhance monitoring and observability with third-party integrations for specializ
 
 |**Topic**|**Link**|
 |---|---|
-|Azure Monitor Overview|[Azure Monitor Documentation](https://learn.microsoft.com/en-us/azure/azure-monitor/)|
+|[Azure Monitor Overview](../Monitoring/Azure_Monitoring/Azure Monitor Overview)|[Azure Monitor Documentation](https://learn.microsoft.com/en-us/azure/azure-monitor/)|
 |Application Insights Overview|[Application Insights Guide](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)|
 |Network Monitoring with Watcher|[Azure Network Watcher](https://learn.microsoft.com/en-us/azure/network-watcher/)|
 |Integrating Grafana with Azure|[Azure Managed Grafana](https://learn.microsoft.com/en-us/azure/azure-managed-grafana/)|

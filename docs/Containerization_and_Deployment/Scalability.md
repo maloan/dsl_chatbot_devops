@@ -1,8 +1,3 @@
----
-created: 2024-11-19 08:18
-updated: 2024-11-22 15:23
----
-
 ## **Scalability**
 
 - **Azure Kubernetes Service (AKS)**
@@ -98,12 +93,12 @@ updated: 2024-11-22 15:23
 - **Terraform**, **AWS CloudFormation**: Automate infrastructure management using code.
     - [Terraform Introduction](https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code)
 
-#### **Scalability & Performance Tuning**
+#### **Scalability & [Performance](Data_science_lab/dsl_chatbot_devops/docs/Databases/Performance_Optimization_and_Caching.md) Tuning**
 
 - **Horizontal Scaling**: Adding more compute resources can be done using Kubernetes autoscaling or AWS Auto Scaling.
     - [Kubernetes Horizontal Scaling](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/)
 
-#### **Caching for Performance**
+#### **[Caching](Data_science_lab/dsl_chatbot_devops/docs/Databases/Performance_Optimization_and_Caching.md) for Performance**
 
 - Tools like **Redis** or **Memcached** help store frequently accessed data in memory to improve response times.
     - [Redis Caching Best Practices](https://redis.io/topics/introduction)
@@ -112,7 +107,7 @@ updated: 2024-11-22 15:23
 
 ### **Further Reading**
 
-- Containerization and Deployment
-- [[Data Storage Solutions for Chatbots]]
+- [Docker_and_Kubernetes](/Docker_and_Kubernetes)
+- [Data_Storage_Solutions_for_Chatbots](../Data_Storage_Solutions_for_Chatbots/Data_Storage_Solutions_for_Chatbots)
 
 ---

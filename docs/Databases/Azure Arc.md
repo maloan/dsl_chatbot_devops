@@ -1,16 +1,6 @@
----
-created: 2024-11-22 10:31
-updated: 2024-11-22 15:06
----
-
-
 # **Azure Arc**
-
-## **1. Introduction to Azure Arc**
-
+## **1 Why Azure Arc?**
 Azure Arc extends Azure's management, governance, and data capabilities to on-premises, multi-cloud, and edge environments. It provides a unified control plane for managing diverse infrastructures, offering tools for policy enforcement, application deployment, and security management.
-
-### **1.1 Why Azure Arc?**
 
 - **Unified Management**: Consistently manage resources across Azure, on-premises, and other clouds.
 - **Hybrid Flexibility**: Deploy Azure services anywhere without the need for Azure-native infrastructure.
@@ -42,7 +32,7 @@ Azure Arc Data Controllers facilitate the extension of Azure's data capabilities
 |---|---|
 |**Unified Management**|Centralized governance for on-premises and multi-cloud environments using Azure services and tools.|
 |**Flexible Connectivity**|Supports directly connected and indirectly connected modes for hybrid scenarios.|
-|**Self-Service Provisioning**|Automated provisioning using Kubernetes for fast deployment in hybrid setups.|
+|**Self-Service Provisioning**|Automated provisioning using [Kubernetes](Data_science_lab/dsl_chatbot_devops/docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) for fast deployment in hybrid setups.|
 |**Elastic Scaling**|Cloud-like dynamic scaling capabilities for databases.|
 |**Disconnected Scenario Support**|Enables backups, restores, and monitoring even without a continuous Azure connection.|
 
@@ -57,7 +47,7 @@ Azure Arc Data Controllers facilitate the extension of Azure's data capabilities
 |**Use Case**|Cloud-connected environments with continuous Azure access|Compliance-heavy environments with restricted Azure connectivity.|
 |**Inventory Management**|Real-time updates in the Azure portal|Periodic data export and manual upload to Azure for inventory updates|
 |**Authentication**|Supports Microsoft Entra ID and Azure RBAC|Local RBAC and username/password authentication only|
-|**Azure Monitor Integration**|Real-time monitoring and alerts|Local monitoring via Grafana and Kibana dashboards|
+|**Azure Monitor Integration**|Real-time monitoring and alerts|Local monitoring via [Grafana](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Prometheus_and_Grafana.md) and Kibana dashboards|
 |**Backup and Restore**|Local backups with optional Azure Blob storage|Local backups only; Azure integration unavailable|
 
 ---
@@ -123,12 +113,12 @@ Azure Arc extends Azure's data management capabilities to non-Azure environments
 
 ---
 
-## **8. Monitoring and Security**
+## **8. [Monitoring](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Monitoring_and_Logging.md) and Security**
 
 ### **8.1 Monitoring Tools**
 
 - **Azure Monitor**: Real-time insights into hybrid environments.
-- **Grafana Dashboards**: Available for locally monitored Arc-enabled PostgreSQL databases.
+- **[Grafana](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Prometheus_and_Grafana.md) Dashboards**: Available for locally monitored Arc-enabled PostgreSQL databases.
 
 ### **8.2 Security Features**
 

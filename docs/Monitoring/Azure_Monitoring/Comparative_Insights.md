@@ -1,8 +1,3 @@
----
-created: 2024-11-22 10:37
-updated: 2024-11-22 14:00
----
-
 # **Comparative Insights**
 
 ---
@@ -89,7 +84,7 @@ Azure Monitor tools often work best in combination, leveraging their individual 
 
 #### **5.2 Integration Workflow Example**
 
-```
+```mermaid
 [Application Insights] --> [Log Analytics Workspace] --> [Dashboards/Power BI]
            |
      [Alerts] --> [Logic Apps / Azure Functions] --> [Incident Resolution]
@@ -108,7 +103,7 @@ Azure Monitor tools often work best in combination, leveraging their individual 
 |SLA compliance tracking|Metrics Explorer, Dashboards|Aggregates metrics and ensures compliance visibility|
 |Incident response|Alerts, Logic Apps|Automates actions and reduces downtime|
 |Advanced reporting|Power BI, Workbooks|Combines data from various sources for BI insights|
-|Multi-cloud/hybrid setup|Log Analytics, Azure Arc|Centralizes data from diverse environments|
+|Multi-cloud/hybrid setup|Log Analytics, [Azure Arc](../../Databases/Azure Arc)|Centralizes data from diverse environments|
 
 #### **6.2 Decision Tree**
 

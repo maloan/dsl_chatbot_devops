@@ -1,7 +1,3 @@
----
-created: 2024-11-22 10:31
-updated: 2024-11-22 13:53
----
 ### **Introduction**
 
 This document explores the integration possibilities of **Azure Monitor**, emphasizing its ability to extend monitoring and observability capabilities across diverse ecosystems. By connecting Azure Monitor with third-party tools, DevOps pipelines, IT Service Management (ITSM) platforms, and Business Intelligence (BI) systems, users can create tailored monitoring solutions that fit their specific operational needs. These integrations are particularly valuable for organizations working in hybrid and multi-cloud environments, providing a centralized view of resource health, enhanced analytics, and proactive incident management.
@@ -624,13 +620,13 @@ Automation is an essential feature of Azure Monitor, enabling organizations to p
 
 #### **Overview**
 
-Azure Monitor provides robust integrations for hybrid and multi-cloud environments, ensuring consistent monitoring and management across diverse platforms. By leveraging tools like **Azure Arc** and third-party solutions such as **Prometheus**, **Grafana**, and **Elastic Stack**, organizations can centralize telemetry from on-premises, cloud, and edge resources into a unified monitoring ecosystem.
+Azure Monitor provides robust integrations for hybrid and multi-cloud environments, ensuring consistent monitoring and management across diverse platforms. By leveraging tools like **[Azure Arc](../../Databases/Azure Arc)** and third-party solutions such as **Prometheus**, **Grafana**, and **Elastic Stack**, organizations can centralize telemetry from on-premises, cloud, and edge resources into a unified monitoring ecosystem.
 
 ---
 
 #### **Key Tools and Features**
 
-1. **Azure Arc**:
+1. **[Azure Arc](../../Databases/Azure Arc)**:
     
     - Extends Azure management capabilities to on-premises and multi-cloud environments.
     - Enables consistent monitoring of Kubernetes clusters, servers, and databases outside Azure.

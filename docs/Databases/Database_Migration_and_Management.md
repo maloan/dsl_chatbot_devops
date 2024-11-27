@@ -1,16 +1,10 @@
----
-created: 2024-11-19 08:18
-updated: 2024-11-22 15:09
----
 ## **Database Migration and Management Tools**
-
-## **1. Introduction**
 
 Azure provides powerful tools to facilitate database migration, management, and automation, helping to optimize workloads and streamline processes. This section introduces the primary tools available for database migration and management on Azure.
 
 ---
 
-## **2. Azure Database Migration Service (DMS)**
+## **1. Azure Database Migration Service (DMS)**
 
 ### **A. Overview**
 
@@ -74,7 +68,7 @@ Azure Database Migration Service (DMS) simplifies the migration process for data
 
 ---
 
-## **3. Elastic Jobs**
+## **2. Elastic Jobs**
 
 ### **A. Overview**
 
@@ -109,9 +103,9 @@ Elastic Jobs simplifies the management of repetitive tasks across multiple Azure
 
 |**Feature**|**Elastic Jobs**|**SQL Agent**|
 |---|---|---|
-|**Scope**|Multi-database|Single database instance|
-|**Execution**|Parallel across targets|Sequential within one instance|
-|**Best For**|SaaS or large-scale systems|Nightly batch jobs or ETL tasks|
+|**Scope**|Multi-database| Single database instance|
+|**Execution**|Parallel across targets| Sequential within one instance|
+|**Best For**|SaaS or large-scale systems| Nightly batch jobs or ETL tasks|
 
 ---
 
@@ -126,7 +120,7 @@ Elastic Jobs simplifies the management of repetitive tasks across multiple Azure
 
 ---
 
-## **4. Azure Arc Data Controllers**
+## **3. [Azure Arc](/Azure Arc) Data Controllers**
 
 ### **A. Overview**
 
@@ -161,21 +155,21 @@ Azure Arc Data Controllers extend Azure’s data management capabilities to hybr
 
 |**Aspect**|**Pros**|**Cons**|
 |---|---|---|
-|**Setup**|Seamless hybrid cloud integration|Requires Kubernetes expertise|
-|**Scalability**|Automatic scaling across environments|Limited real-time insights in indirect mode|
-|**Data Management**|Centralized management and monitoring|Additional setup required for indirect mode|
+|**Setup**|Seamless hybrid cloud integration| Requires [Kubernetes](Data_science_lab/dsl_chatbot_devops/docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) expertise|
+|**[Scalability](../Containerization_and_Deployment/Scalability)**|Automatic scaling across environments| Limited real-time insights in indirect mode|
+|**Data Management**|Centralized management and monitoring| Additional setup required for indirect mode|
 
 ---
 
-## **5. Decision-Making Guide**
+## **4. Decision-Making Guide**
 
 ### **A. Tool Selection**
 
 |**Scenario**|**Recommended Tool**|**Reason**|
 |---|---|---|
-|Migration from legacy systems|Azure Database Migration Service|Comprehensive support for heterogeneous migrations.|
-|Large-scale task automation|Elastic Jobs|Manages multi-database operations efficiently.|
-|Multi-cloud hybrid data management|Azure Arc Data Controllers|Offers consistent, secure management across environments.|
+|Migration from legacy systems| Azure Database Migration Service| Comprehensive support for heterogeneous migrations.|
+|Large-scale task automation| Elastic Jobs| Manages multi-database operations efficiently.|
+|Multi-cloud hybrid data management|Azure Arc Data Controllers| Offers consistent, secure management across environments.|
 
 ---
 

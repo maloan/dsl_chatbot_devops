@@ -1,13 +1,8 @@
----
-created: 2024-11-22 10:40
-updated: 2024-11-22 14:03
----
-
 # **Deployment Guidance**
 
 ## **1. Introduction**
 
-Efficient deployment of monitoring tools is critical to ensuring performance, scalability, and cost-effectiveness in complex environments. This guide provides a comprehensive framework for planning, implementing, and optimizing Azure Monitor deployments. By following these steps, scientists and developers can leverage Azure Monitor’s capabilities to achieve their specific goals, whether monitoring a small application or managing a multi-cloud environment.
+Efficient deployment of monitoring tools is critical to ensuring performance, [Scalability](../../Containerization_and_Deployment/Scalability.md), and cost-effectiveness in complex environments. This guide provides a comprehensive framework for planning, implementing, and optimizing Azure Monitor deployments. By following these steps, scientists and developers can leverage Azure Monitor’s capabilities to achieve their specific goals, whether monitoring a small application or managing a multi-cloud environment.
 
 ---
 
@@ -70,9 +65,9 @@ Before setting up Azure Monitor, clarify the goals of monitoring. Consider the f
     - Use Logic Apps to restart services or trigger incident workflows.
     - Execute scripts via Azure Functions for custom automation needs.
 
-### **3.4 Integrate with DevOps Workflows**
+### **3.4 Integrate with [DevOps](Data_science_lab/dsl_chatbot_devops/docs/Azure_Overview/Microsoft%20Azure%20DevOps%20Tools%20and%20Resources.md) Workflows**
 
-- Embed monitoring steps into CI/CD pipelines using Azure DevOps or GitHub Actions:
+- Embed monitoring steps into CI/CD pipelines using Azure DevOps or GitHub [Actions](Data_science_lab/dsl_chatbot_devops/code-examples/Example%20GitHub%20Actions%20Pipeline.md):
     - Validate build performance during deployment.
     - Monitor post-deployment application health.
 
@@ -156,7 +151,7 @@ Before setting up Azure Monitor, clarify the goals of monitoring. Consider the f
 
 |**Resource**|**Link**|
 |---|---|
-|Azure Monitor Overview|[Azure Monitor Documentation](https://learn.microsoft.com/en-us/azure/azure-monitor/)|
+|[Azure Monitor Overview](/Azure Monitor Overview)|[Azure Monitor Documentation](https://learn.microsoft.com/en-us/azure/azure-monitor/)|
 |Log Analytics and KQL|[KQL Documentation](https://learn.microsoft.com/en-us/azure/data-explorer/kql-quick-reference)|
 |Application Insights Setup Guide|[Application Insights Documentation](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)|
 |Automating Responses with Logic Apps|[Logic Apps Documentation](https://learn.microsoft.com/en-us/azure/logic-apps/)|

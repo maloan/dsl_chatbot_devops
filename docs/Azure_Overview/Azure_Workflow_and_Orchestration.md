@@ -1,8 +1,3 @@
----
-created: 2024-11-19 08:18
-updated: 2024-11-22 14:51
----
-
 ## **1. Workflow and Orchestration**
 
 ### **Tools for Process Automation and Integration**

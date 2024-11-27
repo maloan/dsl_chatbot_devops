@@ -1,10 +1,3 @@
----
-created: 2024-11-21 13:15
-updated: 2024-11-22 14:58
----
-
-## **2.1 Introduction**
-
 ### **Overview**
 
 Azure Monitor serves as a central hub for monitoring, diagnosing, and optimizing the performance of applications, infrastructure, and networks. By unifying telemetry from multiple sources, it empowers organizations to ensure reliability, enhance performance, and reduce downtime. Azure Monitor’s tools are versatile, supporting use cases that range from debugging application issues to scaling globally distributed systems.
@@ -25,7 +18,7 @@ These features are designed to simplify the management of complex systems, impro
 
 ---
 
-### **Key Pillars**
+### **Main Pillars**
 
 Azure Monitor's core features are organized into three interconnected pillars:
 
@@ -126,7 +119,7 @@ Azure Monitor gathers two primary types of telemetry:
 2. **Azure Monitor for Containers**:
     
     - Monitors containerized environments, capturing performance data for nodes, pods, and containers.
-    - Integrates seamlessly with Azure Kubernetes Service (AKS) and external Kubernetes clusters via Azure Arc.
+    - Integrates seamlessly with Azure Kubernetes Service (AKS) and external Kubernetes clusters via [Azure Arc](../../Databases/Azure Arc).
 3. **Hybrid and Multi-Cloud Monitoring**:
     
     - Azure Arc extends data collection capabilities to on-premises and third-party cloud environments (e.g., AWS, GCP), enabling unified monitoring across hybrid setups.
@@ -179,7 +172,7 @@ Azure Monitor supports a range of visualization methods, each tailored to specif
 
 ---
 
-### **Key Visualization Tools**
+### **Visualization Tools**
 
 1. **Azure Monitor Dashboards**:
     
@@ -234,10 +227,10 @@ Azure Monitor supports a range of visualization methods, each tailored to specif
         - Automate refresh schedules for up-to-date reporting.
 5. **Partner Solutions**:
     
-    - **Grafana**:
+    - **[Grafana](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Prometheus_and_Grafana.md)**:
         - **Description**: An open-source visualization tool that integrates with Azure Monitor for multi-cloud dashboards.
         - **Features**:
-            - Real-time operational dashboards for DevOps and engineering teams.
+            - Real-time operational dashboards for [DevOps](Data_science_lab/dsl_chatbot_devops/docs/Azure_Overview/Microsoft%20Azure%20DevOps%20Tools%20and%20Resources.md) and engineering teams.
             - Native Azure Monitor plugin for seamless integration.
         - **Use Cases**:
             - Hybrid monitoring combining Azure and other cloud platforms.
@@ -258,7 +251,7 @@ Azure Monitor supports a range of visualization methods, each tailored to specif
 |**Workbooks**|Deep Analysis|Troubleshooting and operational insights|Flexible templates, advanced queries|Steeper learning curve|
 |**Metrics Explorer**|Real-Time Metrics|Quick SLA checks and anomaly detection|Near real-time data, lightweight|Limited to Azure-native metrics|
 |**Power BI**|Business Intelligence|Executive reporting and trend analysis|External data integration|No real-time updates|
-|**Grafana**|Multi-Cloud Dashboards|Unified view for hybrid environments|Multi-platform support|Requires additional setup|
+|**[Grafana](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Prometheus_and_Grafana.md)**|Multi-Cloud Dashboards|Unified view for hybrid environments|Multi-platform support|Requires additional setup|
 
 ---
 
@@ -271,7 +264,7 @@ Azure Monitor supports a range of visualization methods, each tailored to specif
 3. **Resource Cost Tracking**:
     - Integrate with Power BI to monitor and optimize Azure consumption costs.
 4. **DevOps Dashboards**:
-    - Deploy Grafana for real-time insights during CI/CD pipeline executions.
+    - Deploy [Grafana](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Prometheus_and_Grafana.md) for real-time insights during CI/CD pipeline executions.
 
 ---
 

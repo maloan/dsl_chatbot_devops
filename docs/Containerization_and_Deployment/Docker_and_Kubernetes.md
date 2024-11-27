@@ -1,8 +1,3 @@
----
-created: 2024-11-19 08:18
-updated: 2024-11-22 15:21
----
-
 ## **Containerization and Deployment**
 
 - Docker
@@ -33,7 +28,7 @@ Docker is an open-source platform for automating application deployment and mana
 
 #### **Disadvantages**
 
-- **Limited Orchestration**: Requires orchestration tools like Kubernetes for scaling and automated failover.
+- **Limited [Orchestration](Data_science_lab/dsl_chatbot_devops/docs/Azure_Overview/Azure_Workflow_and_Orchestration.md)**: Requires orchestration tools like [Kubernetes](Data_science_lab/dsl_chatbot_devops/code-examples/Example%20Deployment%20on%20Azure%20Kubernetes%20Service%20(AKS).md#Kubernetes%20deployment) for scaling and automated failover.
 - **Networking Complexity**: Can be challenging when scaling across multiple hosts or networks.
 
 #### **Cost**
@@ -47,7 +42,7 @@ Docker is open-source and free to use, but enterprise-level features may require
 
 ---
 
-### **2. Azure Kubernetes Service (AKS)**
+### **2. Azure [Kubernetes](Data_science_lab/dsl_chatbot_devops/code-examples/Example%20Deployment%20on%20Azure%20Kubernetes%20Service%20(AKS).md#Kubernetes%20deployment) Service (AKS)**
 
 #### **Overview**
 
@@ -57,7 +52,7 @@ Azure Kubernetes Service (AKS) is a fully managed service for deploying, managin
 
 - **Production-Scale Applications**: Designed for large-scale applications that require high availability and performance.
 - **Microservices**: Excellent for managing microservices with features like service discovery and self-healing.
-- **CI/CD Pipelines**: Integrates seamlessly with Azure DevOps and GitHub Actions to automate deployments.
+- **CI/CD Pipelines**: Integrates seamlessly with Azure [DevOps](Data_science_lab/dsl_chatbot_devops/docs/Azure_Overview/Microsoft%20Azure%20DevOps%20Tools%20and%20Resources.md) and GitHub [Actions](Data_science_lab/dsl_chatbot_devops/code-examples/Example%20GitHub%20Actions%20Pipeline.md) to automate deployments.
 - **Multi-Cloud and Hybrid Deployments**: Can be deployed across multiple clouds or on-premises environments.
 
 #### **Advantages**
@@ -91,7 +86,7 @@ Docker and AKS complement each other by combining containerization and orchestra
 - **Docker**: Used to package applications into containers, ensuring consistency across environments.
 - **AKS**: Handles the orchestration of containers, managing deployment, scaling, and load balancing in a production environment.
 
-#### **Workflow Example**
+#### **[Workflow](Data_science_lab/dsl_chatbot_devops/docs/Azure_Overview/Azure_Workflow_and_Orchestration.md) Example**
 
 1. **Containerization with Docker**: Developers build Docker images and push them to a container registry (e.g., Azure Container Registry, Docker Hub).
 2. **Orchestration with AKS**: Deploy the containerized applications on AKS, where Kubernetes manages scaling and high availability.
@@ -105,7 +100,7 @@ While **Docker Swarm** is simpler, **Kubernetes (AKS)** provides more powerful f
 
 |**Feature**|**Kubernetes (AKS)**|**Docker Swarm**|
 |---|---|---|
-|**Scalability**|Ideal for large-scale, production-level apps|Better for small to medium environments|
+|**[Scalability](/Scalability)**|Ideal for large-scale, production-level apps|Better for small to medium environments|
 |**High Availability**|Built-in HA with automatic failover|Requires manual setup for HA|
 |**Rolling Updates**|Native support for rolling updates|Requires configuration for rolling updates|
 |**Networking**|Advanced networking features|Simpler, less flexible networking|
@@ -138,12 +133,12 @@ When choosing between Docker, AKS, or both, consider your project’s scale, clo
 #### **Setup**
 
 - **Docker**: Best suited for local development and small-scale projects.
-- **AKS**: Use for orchestration and production-grade applications. Automate deployments with **Azure Pipelines** or **GitHub Actions**.
+- **AKS**: Use for orchestration and production-grade applications. Automate deployments with **Azure [Pipelines](Data_science_lab/dsl_chatbot_devops/code-examples/Example%20Azure%20Pipelines%20YAML.md)** or **GitHub [Actions](Data_science_lab/dsl_chatbot_devops/code-examples/Example%20GitHub%20Actions%20Pipeline.md)**.
 
 #### **Tools**
 
-- **GitHub Actions**: Best for smaller projects involving Docker containers.
-- **Azure Pipelines**: Most suitable for complex AKS deployments in Azure environments.
+- **GitHub [Actions](Data_science_lab/dsl_chatbot_devops/code-examples/Example%20GitHub%20Actions%20Pipeline.md)**: Best for smaller projects involving Docker containers.
+- **Azure [Pipelines](Data_science_lab/dsl_chatbot_devops/code-examples/Example%20Azure%20Pipelines%20YAML.md)**: Most suitable for complex AKS deployments in Azure environments.
 
 ---
 

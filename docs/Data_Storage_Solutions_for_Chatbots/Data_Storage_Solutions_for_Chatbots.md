@@ -1,8 +1,3 @@
----
-created: 2024-11-19 08:18
-updated: 2024-11-22 15:19
----
-
 ## **Data Storage Solutions for Chatbots**
 
 This document outlines the various data storage solutions available for chatbots, including Azure Cosmos DB, Azure SQL Database, and other supporting technologies, while considering specific use cases, pricing, and hybrid approaches for optimized performance.
@@ -13,7 +8,7 @@ This document outlines the various data storage solutions available for chatbots
 
 #### **Overview**
 
-Azure Cosmos DB is a globally distributed NoSQL database designed for high scalability and performance. It supports multiple data models, making it ideal for applications that need low-latency access across regions.
+Azure Cosmos DB is a globally distributed [NoSQL](Data_science_lab/dsl_chatbot_devops/docs/Databases/Azure/Azure_NoSQL_Databases.md) database designed for high [scalability](../Containerization_and_Deployment/Scalability) and performance. It supports multiple data models, making it ideal for applications that need low-latency access across regions.
 
 #### **Use Cases**
 
@@ -24,7 +19,7 @@ Azure Cosmos DB is a globally distributed NoSQL database designed for high scala
 #### **Advantages**
 
 - **Global Distribution**: Multi-region replication ensures high availability.
-- **Elastic Scalability**: Automatically adjusts throughput and storage.
+- **Elastic [Scalability](../Containerization_and_Deployment/Scalability)**: Automatically adjusts throughput and storage.
 - **Multi-Model Support**: Offers flexibility in using various data models.
 
 #### **Disadvantages**
@@ -63,7 +58,7 @@ Azure SQL Database is a fully managed relational database service, ideal for app
 
 #### **Disadvantages**
 
-- **Relational Models Only**: Not suited for unstructured data; NoSQL may be a better choice.
+- **Relational Models Only**: Not suited for unstructured data; [NoSQL](Data_science_lab/dsl_chatbot_devops/docs/Databases/Azure/Azure_NoSQL_Databases.md) may be a better choice.
 - **Cost for High Availability**: Advanced configurations and high availability features can be costly.
 
 #### **Cost**
@@ -83,11 +78,11 @@ Pricing depends on the service tier and provisioned resources. Higher tiers offe
 
 |**Criteria**|**Azure Cosmos DB**|**Azure SQL Database**|
 |---|---|---|
-|**Data Model**|NoSQL (document, key-value, graph, column-family)|Relational (SQL)|
-|**Scalability**|High scalability with automatic throughput scaling|Vertical scaling with elastic pools or partitioning|
+|**Data Model**|[NoSQL](Data_science_lab/dsl_chatbot_devops/docs/Databases/Azure/Azure_NoSQL_Databases.md) (document, key-value, graph, column-family)|Relational (SQL)|
+|**[Scalability](../Containerization_and_Deployment/Scalability)**|High [scalability](../Containerization_and_Deployment/Scalability) with automatic throughput scaling|Vertical scaling with elastic pools or partitioning|
 |**Global Distribution**|Multi-region replication|Available with Active Geo-Replication|
 |**Consistency Models**|Multiple consistency levels|Strict ACID compliance|
-|**Performance**|Low-latency reads and writes globally|High-performance transactional queries|
+|**[Performance](Data_science_lab/dsl_chatbot_devops/docs/Databases/Performance_Optimization_and_Caching.md)**|Low-latency reads and writes globally|High-performance transactional queries|
 |**Cost**|Higher, based on throughput and storage|Moderate, based on provisioned vCores and storage|
 |**Ideal Use Cases**|Unstructured data, globally distributed apps|Structured data, complex queries, transactional apps|
 
@@ -100,7 +95,7 @@ Pricing depends on the service tier and provisioned resources. Higher tiers offe
 
 ### **4. Supporting Technologies for Chatbot Data Storage**
 
-#### **Caching Mechanisms**
+#### **[Caching](Data_science_lab/dsl_chatbot_devops/docs/Databases/Performance_Optimization_and_Caching.md) Mechanisms**
 
 ##### **Overview**
 
@@ -109,7 +104,7 @@ Caching is a technique that stores frequently accessed data in memory, reducing 
 ##### **Use Cases**
 
 - **Reduce Latency**: Cache frequently accessed data like user sessions and chatbot responses.
-- **Improve Performance**: Relieve backend databases from high read/write demands.
+- **Improve [Performance](Data_science_lab/dsl_chatbot_devops/docs/Databases/Performance_Optimization_and_Caching.md)**: Relieve backend databases from high read/write demands.
 
 ##### **Examples**
 
@@ -147,7 +142,7 @@ Data pruning helps optimize database performance by removing outdated chat data.
 
 ### **5. Other Database Options**
 
-#### **MongoDB**
+#### **[MongoDB](Data_science_lab/dsl_chatbot_devops/docs/Databases/NonAzure/MongoDB_Overview.md)**
 
 - **Type**: NoSQL Document Database
 - **Use Cases**: Ideal for flexible schemas, such as chat logs and user data.

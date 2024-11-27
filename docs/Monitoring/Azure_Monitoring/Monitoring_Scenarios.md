@@ -1,9 +1,4 @@
----
-created: 2024-11-21 13:32
-updated: 2024-11-22 14:59
----
-
-# **3. Monitoring Scenarios**
+# **3. [Monitoring](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Monitoring_and_Logging.md) Scenarios**
 
 ## **1. Introduction**
 
@@ -25,11 +20,11 @@ This document explores various Azure Monitor scenarios, highlighting how to leve
 
 |**Scenario**|**Tools**|**Example Use Case**|**Challenges Solved**|
 |---|---|---|---|
-|**Application Monitoring**|Application Insights|Debug slow API responses.|Identifies latency bottlenecks, uncovers hidden exceptions, and improves user experience.|
-|**Infrastructure Monitoring**|VM Insights, Azure Arc|Ensure high availability for hybrid VMs.|Monitors resource utilization, predicts capacity needs, and automates scaling decisions.|
-|**Network Monitoring**|Network Performance Monitor, Connection Monitor|Diagnose packet loss in hybrid networks.|Ensures stable connectivity, mitigates SLA violations, and identifies routing anomalies.|
-|**Security Monitoring**|Microsoft Defender for Cloud, Microsoft Sentinel|Detect unauthorized access attempts.|Centralizes threat detection, automates incident response, and ensures compliance with security policies.|
-|**Database Monitoring**|SQL Insights, Azure Monitor Logs|Identify slow queries in Azure SQL databases.|Diagnoses performance bottlenecks, optimizes resource usage, and reduces downtime risks.|
+|**Application Monitoring**|Application Insights| Debug slow API responses.| Identifies latency bottlenecks, uncovers hidden exceptions, and improves user experience.|
+|**Infrastructure Monitoring**|VM Insights, Azure Arc|Ensure high availability for hybrid VMs.| Monitors resource utilization, predicts capacity needs, and automates scaling decisions.|
+|**Network Monitoring**|Network Performance Monitor, Connection Monitor| Diagnose packet loss in hybrid networks.| Ensures stable connectivity, mitigates SLA violations, and identifies routing anomalies.|
+|**Security Monitoring**|Microsoft Defender for Cloud, Microsoft Sentinel| Detect unauthorized access attempts.| Centralizes threat detection, automates incident response, and ensures compliance with security policies.|
+|**Database Monitoring**|SQL Insights, Azure Monitor Logs| Identify slow queries in Azure SQL databases.| Diagnoses performance bottlenecks, optimizes resource usage, and reduces downtime risks.|
 
 ---
 
@@ -58,7 +53,7 @@ Proactive monitoring helps preemptively detect anomalies, anticipate scaling nee
     
     - Analyzes historical trends to forecast resource needs and recommends scaling actions.
     - Prevents performance bottlenecks during high-traffic events.
-    - **Example**: Scales up Azure Kubernetes Service (AKS) nodes ahead of a holiday sales event.
+    - **Example**: Scales up Azure [Kubernetes](Data_science_lab/dsl_chatbot_devops/docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) Service (AKS) nodes ahead of a holiday sales event.
 3. **Live Metrics Streaming**
     
     - Provides real-time telemetry for immediate debugging during incidents.
@@ -707,7 +702,7 @@ A manufacturing company detects unauthorized access attempts to critical IoT dev
 
 ### **Overview**
 
-Database monitoring is vital for maintaining the performance, reliability, and scalability of modern applications. Azure offers a range of tools, such as **SQL Insights**, **Cosmos DB Metrics**, and **Azure Monitor Workbooks**, to help organizations monitor query performance, manage resources, and optimize costs across relational and NoSQL databases. These capabilities ensure compliance with SLAs, reduce downtime, and provide actionable insights.
+Database monitoring is vital for maintaining the performance, reliability, and scalability of modern applications. Azure offers a range of tools, such as **SQL Insights**, **Cosmos DB Metrics**, and **Azure Monitor Workbooks**, to help organizations monitor query performance, manage resources, and optimize costs across relational and [NoSQL](Data_science_lab/dsl_chatbot_devops/docs/Databases/Azure/Azure_NoSQL_Databases.md) databases. These capabilities ensure compliance with SLAs, reduce downtime, and provide actionable insights.
 
 ---
 
@@ -798,7 +793,7 @@ Database monitoring is vital for maintaining the performance, reliability, and s
 
 ### **Best Practices**
 
-1. **Enable Comprehensive Diagnostics**:
+1. **Enable Comprehensive [Diagnostics](Data_science_lab/dsl_chatbot_devops/docs/Azure_Overview/Azure_Monitoring_and_Diagnostics_Overview.md)**:
     - Forward database telemetry to **Log Analytics Workspace** for centralized analysis.
     - Ensure query performance, RU usage, and storage consumption are logged.
 2. **Set Proactive Alerts**:
@@ -1264,13 +1259,6 @@ Insights       VM Insights    Traffic Analytics
     
     - Regularly revisit visual aids and tool comparisons as your monitoring needs evolve.
 
----
-
-#### **9.4 Summary**
-
-The resources and visual aids provided here are designed to complement the main Azure Monitor workflows. By leveraging these materials, users can deepen their understanding, experiment with configurations, and make well-informed decisions about tool selection and integration.
-
-Would you like to add additional visual representations or refine the comparison details further?
 
 
 

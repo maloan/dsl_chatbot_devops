@@ -1,7 +1,3 @@
----
-created: 2024-10-02 15:13
-updated: 2024-10-23 09:35
----
 ```yaml
 name: CI/CD Pipeline
 

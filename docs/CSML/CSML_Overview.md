@@ -1,7 +1,3 @@
----
-created: 2024-11-19 08:18
-updated: 2024-11-22 15:29
----
 ## What is CSML?
 
 CSML (Conversational Standard Meta Language) is an open-source programming language specifically designed for building chatbot applications. It simplifies the creation and management of interactive dialogue systems using a text-only syntax. Developed in Rust, CSML offers an easy-to-understand language that enables developers to build advanced chatbots without the complexity of traditional programming languages. For more details, visit the [CSML Documentation](https://www.csml.dev).

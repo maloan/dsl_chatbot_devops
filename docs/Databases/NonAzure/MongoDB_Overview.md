@@ -1,12 +1,8 @@
----
-created: 2024-11-19 08:18
-updated: 2024-11-22 15:27
----
 ## MongoDB Overview
 
 ### **What is MongoDB?**
 
-MongoDB is a widely used document-oriented NoSQL database that provides flexibility and scalability for modern applications. It allows developers to store data in JSON-like format (BSON) which is schema-free, enabling the storage of complex, hierarchical data structures with ease. It is well-suited for managing large amounts of unstructured data.
+MongoDB is a widely used document-oriented NoSQL database that provides flexibility and [Scalability](../../Containerization_and_Deployment/Scalability.md) for modern applications. It allows developers to store data in JSON-like format (BSON) which is schema-free, enabling the storage of complex, hierarchical data structures with ease. It is well-suited for managing large amounts of unstructured data.
 
 For more information, visit the [official MongoDB documentation](https://www.mongodb.com/docs/manual/#what-is-mongodb).
 
@@ -61,6 +57,6 @@ MongoDB Enterprise Advanced is designed for enterprises that require robust feat
 
 - **Robust Security**: Includes advanced encryption and compliance features to meet strict security requirements.
 - **Ops Manager**: A management tool that simplifies monitoring, automation, and backups for MongoDB deployments.
-- **BI Connector and Kubernetes Operator**: Helps integrate MongoDB with IT systems and orchestrates deployments in Kubernetes environments.
+- **BI Connector and [Kubernetes](Data_science_lab/dsl_chatbot_devops/docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) Operator**: Helps integrate MongoDB with IT systems and orchestrates deployments in [Kubernetes](Data_science_lab/dsl_chatbot_devops/docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) environments.
 
 For more information, visit the [MongoDB Enterprise page](https://www.mongodb.com/try/download/enterprise).

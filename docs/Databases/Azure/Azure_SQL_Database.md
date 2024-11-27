@@ -1,17 +1,6 @@
----
-created: 2024-11-19 08:18
-updated: 2024-11-22 15:15
----
-
 # **Azure SQL Database Solutions**
 
-## **1. Introduction**
-
-### **1.1 Purpose of the Document**
-
-This document provides a detailed overview of Azure's SQL database offerings. It focuses on key features, use cases, and decision-making criteria, helping users select the right database solution for their workloads. The guide also emphasizes compliance with local regulations, including those specific to Switzerland, and provides insights into Azure’s scalable, flexible, and globally distributed database options.
-
-### **1.2 Overview of Azure SQL Solutions**
+## **1 Overview of Azure SQL Solutions**
 
 Azure offers a diverse range of SQL database solutions, from fully managed PaaS services to hybrid and specialized options. These offerings allow for flexible deployment, management, and scaling across various environments, including cloud, on-premises, and hybrid setups. Azure’s solutions are available across major regions, including **Switzerland North** and **Switzerland West**, ensuring data residency compliance.
 
@@ -23,7 +12,7 @@ Azure offers a diverse range of SQL database solutions, from fully managed PaaS 
 
 #### **Overview**
 
-Azure SQL Database is a fully managed relational database that automates infrastructure management, offering high availability, scalability, and performance.
+Azure SQL Database is a fully managed relational database that automates infrastructure management, offering high availability, [scalability](../../Containerization_and_Deployment/Scalability), and performance.
 
 #### **Key Features**
 
@@ -211,7 +200,7 @@ Brings Azure SQL management features to on-premises SQL Server instances.
 
 #### **Overview**
 
-Deploy PostgreSQL servers in hybrid setups using Kubernetes, enabling consistent management across environments.
+Deploy PostgreSQL servers in hybrid setups using [Kubernetes](Data_science_lab/dsl_chatbot_devops/code-examples/Example%20Deployment%20on%20Azure%20Kubernetes%20Service%20(AKS).md#Kubernetes%20deployment), enabling consistent management across environments.
 
 #### **Key Features**
 
@@ -275,5 +264,3 @@ Move cold data to Azure while maintaining queryability.
 - [Azure Arc Overview](https://azure.microsoft.com/azure-arc)
 
 ---
-
-T

@@ -1,9 +1,3 @@
----
-created: 2024-11-19 08:18
-updated: 2024-11-22 14:53
----
-
-
 ## **1. Core Infrastructure and Compute**
 
 ### **Compute**
@@ -35,7 +29,11 @@ updated: 2024-11-22 14:53
 
 ## **2. Data and AI**
 ### **Databases**
-- [Azure Databases](https://portal.azure.com/#allservices/category/All): Managed database solutions for SQL, NoSQL, and distributed databases. Includes:
+- [Azure Databases](https://portal.azure.com/#allservices/category/All): Managed database solutions for SQL, NoSQL, and distributed Databases. Includes:[Azure Resources] --> [Enable Data Collection] --> [Set Alerts and Automation]
+          |
+      [Create Dashboards] --> [Visualize Metrics and Logs]
+          |
+    [Monitor and Optimize Configurations]
     - Azure SQL Database
     - Azure Cosmos DB
     - Azure Database for PostgreSQL/MySQL
@@ -84,8 +82,8 @@ updated: 2024-11-22 14:53
     - Azure Resource Manager
     - Azure Cost Management
     - Azure Policy
+    - 
 ### **Monitor**
-
 - [Azure Monitor](https://portal.azure.com/#allservices/category/All): End-to-end monitoring for infrastructure, applications, and services. Includes:
     - Metrics and Alerts
     - Log Analytics Workspace
@@ -99,10 +97,9 @@ updated: 2024-11-22 14:53
 ---
 
 ## **5. Hybrid and Multicloud**
-
 ### **Hybrid + Multicloud**
 - [Azure Hybrid & Multicloud](https://portal.azure.com/#allservices/category/All): Manage resources across on-premises, multicloud, and edge environments. Includes:
-    - Azure Arc
+    - [Azure Arc](../Databases/Azure Arc)
     - Azure Stack
     - Azure VMware Solution
 

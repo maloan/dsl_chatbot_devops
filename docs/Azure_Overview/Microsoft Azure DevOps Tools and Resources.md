@@ -1,8 +1,3 @@
----
-created: 2024-11-19 08:18
-updated: 2024-11-22 14:51
----
-
 ## **DevOps Tools**
 
 Azure offers a comprehensive suite of tools for managing DevOps workflows, from infrastructure deployment to continuous testing. Below is a categorized list of these tools with descriptions and direct links for quick access.

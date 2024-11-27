@@ -1,7 +1,3 @@
----
-created: 2024-10-14 14:12
-updated: 2024-10-23 13:22
----
 ### **LangChain AI and Chatbot Development**
 - **[LangChain State of AI 2023](https://blog.langchain.dev/langchain-state-of-ai-2023/)**: Overview of the latest advancements and state of AI in 2023 with a focus on LangChain.
 - **[LangChain Chatbot Tutorial](https://python.langchain.com/docs/tutorials/chatbot/)**: Step-by-step guide on how to build chatbots using LangChain in Python.

@@ -1,8 +1,3 @@
----
-created: 2024-11-19 08:18
-updated: 2024-11-22 15:18
----
-
 ## **1. Microsoft Bot Framework and Bot Development Tools Overview**
 
 The Microsoft Bot Framework offers a suite of tools designed to help developers build, test, and manage chatbots across various platforms. These tools, integrated with Azure AI services, enable the creation of bots for diverse applications, from customer service to enterprise solutions.
@@ -198,7 +193,7 @@ Free to use.
 
 - **Low-Code**: Great for rapid deployment with minimal coding.
 - **Multi-Channel Support**: Deploy bots across websites, mobile apps, and messaging platforms.
-- **Azure Integration**: Leverage Azure services for scalability and monitoring.
+- **Azure Integration**: Leverage Azure services for [Scalability|scalability](Scalability%7Cscalability.md) and monitoring.
 
 #### **Disadvantages**:
 
@@ -218,4 +213,4 @@ Pricing based on Azure usage, with free messages on standard channels and charge
 
 ## **Conclusion**
 
-The Microsoft Bot Framework provides an extensive suite of tools for developing, testing, and deploying chatbots. Whether you are building a simple chatbot for customer support or a complex enterprise solution, the tools like **Bot Framework Web Chat**, **Bot Framework CLI**, and **Microsoft AI Bot Service** offer scalability, customization, and integration with Azure services to meet diverse requirements.
+The Microsoft Bot Framework provides an extensive suite of tools for developing, testing, and deploying chatbots. Whether you are building a simple chatbot for customer support or a complex enterprise solution, the tools like **Bot Framework Web Chat**, **Bot Framework CLI**, and **Microsoft AI Bot Service** offer [Scalability](../Containerization_and_Deployment/Scalability), customization, and integration with Azure services to meet diverse requirements.

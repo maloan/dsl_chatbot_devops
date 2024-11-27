@@ -1,14 +1,9 @@
----
-created: 2024-11-19 08:18
-updated: 2024-11-22 15:22
----
-
 ## **Monitoring and Logging**
 
 - **Azure Monitor**
 - **Application Insights**
-- **Prometheus**
-- **Grafana**
+- **[Prometheus](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Prometheus_and_Grafana.md)**
+- **[Grafana](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Prometheus_and_Grafana.md)**
 - **Azure Log Analytics**
 - **Power BI**
 - **ElasticSearch**
@@ -20,7 +15,7 @@ updated: 2024-11-22 15:22
 |**Tool**|**Key Features**|**Ideal For**|**Disadvantages**|**Cost**|
 |---|---|---|---|---|
 |**Azure Monitor & Application Insights**|Azure integration, real-time metrics|Azure-hosted applications|Azure-centric, can be expensive|Pay per GB; 5GB free/month|
-|**Prometheus & Grafana**|Open-source, flexible metrics|Kubernetes, custom dashboards|Complex setup, not for long-term storage|Free (Open-source); hosting costs apply|
+|**[Prometheus](Data_science_lab/dsl_chatbot_devops/docs/Monitoring/Prometheus_and_Grafana.md) & Grafana**|Open-source, flexible metrics|Kubernetes, custom dashboards|Complex setup, not for long-term storage|Free (Open-source); hosting costs apply|
 |**Azure Log Analytics**|Log aggregation, KQL querying|Azure-hosted resources|Needs KQL expertise|Pay per GB ingested/retained|
 |**Power BI**|Custom dashboards, data transformations|Business intelligence, reporting|Performance issues with large datasets|Free for individuals; $9.99/user/month|
 |**ElasticSearch**|Centralized logging, fast search|Log management, real-time analytics|Complex management, resource-heavy|Free (Open-source); Elastic Cloud paid plans|
@@ -201,6 +196,6 @@ ElasticSearch is free and open-source, but hosting solutions like **Elastic Clou
 
 ### **Further Reading**
 
-- Containerization and Deployment
+- [Docker_and_Kubernetes](../Containerization_and_Deployment/Docker_and_Kubernetes)
 
 ---

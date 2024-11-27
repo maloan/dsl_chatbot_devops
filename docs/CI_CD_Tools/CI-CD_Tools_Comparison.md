@@ -1,7 +1,3 @@
----
-created: 2024-11-19 08:18
-updated: 2024-11-22 15:20
----
 ## **Continuous Integration and Continuous Delivery (CI/CD) Tools**
 
 This section compares **GitHub Actions** and **Azure Pipelines** as CI/CD solutions for automating workflows. Additionally, it touches on other notable tools and resources to enhance the CI/CD pipeline.
@@ -16,7 +12,7 @@ GitHub Actions is a powerful automation tool integrated into GitHub, designed to
 
 #### **Use Cases**
 
-- **Simple Workflows**: Automate testing, Docker builds, and web app deployments.
+- **Simple Workflows**: Automate testing, [Docker](Data_science_lab/dsl_chatbot_devops/docs/Containerization_and_Deployment/Docker_and_Kubernetes.md) builds, and web app deployments.
 - **GitHub Integration**: Best suited for teams using GitHub for version control.
 - **Event-Driven**: Triggers workflows based on GitHub events.
 - **Open Source Projects**: Free for public repositories.
@@ -40,7 +36,7 @@ GitHub Actions is a powerful automation tool integrated into GitHub, designed to
 - **Free for Public Repositories**: Unlimited usage.
 - **Private Repositories**: 2,000 free minutes/month, additional minutes cost $0.008 per minute. Storage costs $0.25 per GB/month.
 
-[Example GitHub Actions Pipeline]
+[Example GitHub Actions Pipeline](../../code-examples/Example%20GitHub%20Actions%20Pipeline.md)
 
 #### **Links**
 
@@ -53,11 +49,11 @@ GitHub Actions is a powerful automation tool integrated into GitHub, designed to
 
 #### **Overview**
 
-Azure Pipelines, part of Azure DevOps, is a cloud-based service that supports complex CI/CD workflows. It integrates well with Azure and other cloud providers, making it ideal for large-scale and enterprise-grade projects.
+Azure Pipelines, part of Azure [DevOps](Data_science_lab/dsl_chatbot_devops/docs/Azure_Overview/Microsoft%20Azure%20DevOps%20Tools%20and%20Resources.md), is a cloud-based service that supports complex CI/CD workflows. It integrates well with Azure and other cloud providers, making it ideal for large-scale and enterprise-grade projects.
 
 #### **Use Cases**
 
-- **Complex Workflows**: Best for multi-stage deployments involving services like Kubernetes, Azure VMs, and web apps.
+- **Complex Workflows**: Best for multi-stage deployments involving services like [Kubernetes](Data_science_lab/dsl_chatbot_devops/code-examples/Example%20Deployment%20on%20Azure%20Kubernetes%20Service%20(AKS).md#Kubernetes%20deployment), Azure VMs, and web apps.
 - **Azure Integration**: Perfect for teams deploying Azure-based apps and services.
 - **Multi-Cloud & Hybrid Deployments**: Supports deployments across multiple clouds and on-prem environments.
 - **Enterprise Solutions**: Offers features like gated check-ins, release management, and advanced control over pipeline stages.
@@ -80,7 +76,7 @@ Azure Pipelines, part of Azure DevOps, is a cloud-based service that supports co
 - **Free Tier**: 1,800 minutes/month for public projects and 1 free parallel job.
 - **Paid Plans**: $40/month for additional parallel jobs; self-hosted agents are free, but they incur Azure resource costs.
 
-[Example Azure Pipelines YAML]
+[Example Azure Pipelines YAML](../../code-examples/Example Azure Pipelines YAML)
 
 #### **Links**
 
@@ -115,6 +111,6 @@ Azure Pipelines, part of Azure DevOps, is a cloud-based service that supports co
 ### **5. Further Reading**
 
 - [Set up CI/CD for Composer Bot](https://learn.microsoft.com/en-us/composer/how-to-cicd)
-- [Containerization and Deployment](#)
-
+- [Docker_and_Kubernetes](../Containerization_and_Deployment/Docker_and_Kubernetes)
+- [Scalability](../Containerization_and_Deployment/Scalability)
 ---
