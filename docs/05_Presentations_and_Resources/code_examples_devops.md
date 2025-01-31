@@ -1,7 +1,4 @@
-# **Overview: Code Examples for DevOps Practices**
-
----
-
+# **Code Examples for DevOps Practices**
 ### **Table of Contents**
 
 - [**1. Introduction**](#1-introduction)
@@ -15,53 +12,58 @@
 
 ## **1. Introduction**
 
-This document provides code examples for implementing various DevOps practices. These examples demonstrate the use of common tools and frameworks, helping you get started with version control, CI/CD pipelines, infrastructure automation, container orchestration, and monitoring systems.
+This guide provides practical **code examples** for implementing **DevOps best practices** using **Git, CI/CD, IaC, Docker, Kubernetes, and monitoring tools**.
 
-> **Note:** Modify these examples to suit your specific project requirements.
+```mermaid
+graph TD;
+    A[Version Control] -->|Git| B[Continuous Integration];
+    B -->|GitHub Actions/Jenkins| C[Infrastructure as Code];
+    C -->|Terraform/Ansible| D[Containerization];
+    D -->|Docker/Kubernetes| E[Monitoring];
+    E -->|Prometheus/Grafana| F[Alerts & Security];
+```
+
+> **Tip:** These examples can be **modified** to fit specific **DevOps pipelines**.
 
 ---
 
 ## **2. Version Control**
 
-Version control ensures code changes are tracked, enabling collaboration among teams.
+Version control ensures **code integrity** and **collaboration**.
 
-### **2.1 Git Commands**
+### **2.1 Git Basics**
 
 ```bash
-# Initialize a Git repository
+# Initialize a repository
 git init
 
 # Clone a repository
 git clone https://github.com/example/repo.git
 
-# Add changes to staging
-git add .
+# Create a new branch
+git checkout -b feature-branch
 
-# Commit changes
+# Stage and commit changes
+git add .
 git commit -m "Initial commit"
 
-# Push changes to remote repository
-git push origin main
+# Push to remote repository
+git push origin feature-branch
 
-# Create a new branch
-git branch feature-branch
-
-# Switch to a branch
-git checkout feature-branch
-
-# Merge a branch into main
+# Merge branches
+git checkout main
 git merge feature-branch
 ```
 
-> **Tip:** Use descriptive commit messages to make your version history easier to understand.
+> **Tip:** Use **branching strategies** like **GitFlow** for effective collaboration.
 
 ---
 
 ## **3. Continuous Integration (CI)**
 
-CI automates testing and building of code whenever changes are made.
+CI automates **testing and building**.
 
-### **3.1 GitHub Actions Workflow Example**
+### **3.1 GitHub Actions Workflow**
 
 ```yaml
 name: CI Pipeline
@@ -81,14 +83,14 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
 
       - run: npm install
       - run: npm test
       - run: npm run build
 ```
 
-### **3.2 Jenkins Pipeline Example**
+### **3.2 Jenkins Pipeline**
 
 ```groovy
 pipeline {
@@ -113,13 +115,15 @@ pipeline {
 }
 ```
 
+> **Tip:** Use **CI/CD pipelines** to **automate testing** before deployment.
+
 ---
 
 ## **4. Infrastructure as Code (IaC)**
 
-IaC allows infrastructure to be managed using code, ensuring consistency and repeatability.
+IaC ensures **repeatability** and **automation**.
 
-### **4.1 Terraform Script for Azure**
+### **4.1 Terraform for Azure**
 
 ```hcl
 provider "azurerm" {
@@ -139,7 +143,7 @@ resource "azurerm_virtual_network" "example" {
 }
 ```
 
-### **4.2 Ansible Playbook Example**
+### **4.2 Ansible Playbook**
 
 ```yaml
 - hosts: web_servers
@@ -156,36 +160,27 @@ resource "azurerm_virtual_network" "example" {
         state: started
 ```
 
+> **Tip:** Use **Terraform for provisioning** and **Ansible for configuration management**.
+
 ---
 
 ## **5. Containerization and Orchestration**
 
-### **5.1 Dockerfile Example**
+Containers ensure **consistency across environments**.
+
+### **5.1 Dockerfile**
 
 ```dockerfile
-# Use Node.js as base image
-FROM node:14
-
-# Set working directory
+FROM node:16
 WORKDIR /app
-
-# Copy application files
 COPY package*.json ./
-
-# Install dependencies
 RUN npm install
-
-# Copy remaining application files
 COPY . .
-
-# Expose application port
 EXPOSE 3000
-
-# Start the application
 CMD ["npm", "start"]
 ```
 
-### **5.2 Kubernetes Deployment YAML**
+### **5.2 Kubernetes Deployment**
 
 ```yaml
 apiVersion: apps/v1
@@ -209,9 +204,13 @@ spec:
         - containerPort: 80
 ```
 
+> **Tip:** Use **Kubernetes Helm charts** for **simplified deployments**.
+
 ---
 
 ## **6. Monitoring and Alerts**
+
+Monitor infrastructure and detect anomalies.
 
 ### **6.1 Prometheus Alert Rule**
 
@@ -229,7 +228,7 @@ groups:
           description: "CPU usage is above 80% for the past 5 minutes."
 ```
 
-### **6.2 Grafana Dashboard JSON**
+### **6.2 Grafana Dashboard**
 
 ```json
 {
@@ -251,6 +250,8 @@ groups:
 }
 ```
 
+> **Tip:** Use **Grafana** with **Prometheus** for **real-time insights**.
+
 ---
-### Next step:
+### **7.  Next step:**
 - [guide_setting_up_redis](guide_setting_up_redis.md)
